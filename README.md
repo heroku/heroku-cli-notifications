@@ -9,6 +9,7 @@ display notifications in Heroku CLI commands. Based on [node-notifier](https://g
 [![Codecov](https://codecov.io/gh/heroku/heroku-cli-notifications/branch/master/graph/badge.svg)](https://codecov.io/gh/heroku/heroku-cli-notifications)
 [![Downloads/week](https://img.shields.io/npm/dw/@heroku-cli/notifications.svg)](https://npmjs.org/package/@heroku-cli/notifications)
 [![License](https://img.shields.io/npm/l/@heroku-cli/notifications.svg)](https://github.com/heroku/heroku-cli-notifications/blob/master/package.json)
+[![Greenkeeper badge](https://badges.greenkeeper.io/heroku/heroku-cli-notifications.svg)](https://greenkeeper.io/)
 
 <!-- toc -->
 
