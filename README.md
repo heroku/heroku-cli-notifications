@@ -14,6 +14,8 @@ display notifications in Heroku CLI commands. Based on [node-notifier](https://g
 
 # Usage
 
+If `HEROKU_NOTIFICATIONS=0|false` then this will not be displayed.
+
 ```typescript
 import {notify} from '@heroku-cli/notifications'
 notify({
