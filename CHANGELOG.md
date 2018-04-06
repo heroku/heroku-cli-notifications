@@ -1,3 +1,11 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/heroku/heroku-cli-notifications/compare/v1.0.3...v1.1.0) (2018-04-06)
+
+
+### Features
+
+* added force option ([93fd098](https://github.com/heroku/heroku-cli-notifications/commit/93fd098))
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/heroku/heroku-cli-notifications/compare/v1.0.2...v1.0.3) (2018-04-06)
 
