@@ -1,3 +1,11 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/heroku/heroku-cli-notifications/compare/v1.0.2...v1.0.3) (2018-04-06)
+
+
+### Bug Fixes
+
+* mention disabling env var ([2e055f0](https://github.com/heroku/heroku-cli-notifications/commit/2e055f0))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/heroku/heroku-cli-notifications/compare/v1.0.1...v1.0.2) (2018-04-06)
 
