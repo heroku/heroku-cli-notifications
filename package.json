@@ -24,6 +24,7 @@
     "node": ">=8.0.0"
   },
   "files": [
+    "/assets",
     "/lib"
   ],
   "homepage": "https://github.com/heroku/heroku-cli-notifications",
