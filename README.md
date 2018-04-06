@@ -1,6 +1,8 @@
 @heroku-cli/notifications
 =========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/heroku/heroku-cli-notifications.svg)](https://greenkeeper.io/)
+
 display notifications in Heroku CLI commands. Based on [node-notifier](https://github.com/mikaelbr/node-notifier).
 
 [![Version](https://img.shields.io/npm/v/@heroku-cli/notifications.svg)](https://npmjs.org/package/@heroku-cli/notifications)
