@@ -1,7 +1,7 @@
 {
   "name": "@heroku-cli/notifications",
   "description": "display notifications in Heroku CLI commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/heroku/heroku-cli-notifications/issues",
   "dependencies": {
