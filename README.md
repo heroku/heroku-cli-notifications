@@ -1,7 +1,7 @@
 @heroku-cli/notifications
 =========================
 
-display notifications in Heroku CLI commands
+display notifications in Heroku CLI commands. Based on [node-notifier](https://github.com/mikaelbr/node-notifier).
 
 [![Version](https://img.shields.io/npm/v/@heroku-cli/notifications.svg)](https://npmjs.org/package/@heroku-cli/notifications)
 [![CircleCI](https://circleci.com/gh/jdxcode/heroku-cli-notifications/tree/master.svg?style=shield)](https://circleci.com/gh/jdxcode/heroku-cli-notifications/tree/master)
@@ -11,7 +11,15 @@ display notifications in Heroku CLI commands
 [![License](https://img.shields.io/npm/l/@heroku-cli/notifications.svg)](https://github.com/jdxcode/heroku-cli-notifications/blob/master/package.json)
 
 <!-- toc -->
+
 # Usage
-<!-- usage -->
-# Commands
-<!-- commands -->
+
+```typescript
+import {notify} from '@heroku-cli/notifications'
+notify({
+  title: 'notification title',
+  message: 'notification message',
+})
+```
+
+See the [node-notifier](https://github.com/mikaelbr/node-notifier) docs for more information.
