@@ -1,3 +1,11 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/heroku/heroku-cli-notifications/compare/v1.1.0...v1.2.0) (2018-04-06)
+
+
+### Features
+
+* added heroku image by default ([c8f3070](https://github.com/heroku/heroku-cli-notifications/commit/c8f3070))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/heroku/heroku-cli-notifications/compare/v1.0.3...v1.1.0) (2018-04-06)
 
