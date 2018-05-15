@@ -1,3 +1,11 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/heroku/heroku-cli-notifications/compare/v1.2.0...v1.2.1) (2018-05-15)
+
+
+### Bug Fixes
+
+* updated deps ([960f999](https://github.com/heroku/heroku-cli-notifications/commit/960f999))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/heroku/heroku-cli-notifications/compare/v1.1.0...v1.2.0) (2018-04-06)
 
