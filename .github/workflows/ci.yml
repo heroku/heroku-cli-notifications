@@ -9,9 +9,6 @@ jobs:
       matrix:
         node-version: [8, lts]
         os: [ubuntu-latest]
-    defaults:
-      run:
-        working-directory: "~/cli"
     env:
       NYC: yarn exec nyc -- --nycrc-path node_modules/@oclif/nyc-config/.nycrc
       MOCHA_FILE: reports/mocha.xml
@@ -39,12 +36,7 @@ jobs:
 
   release:
     if: github.ref == 'refs/heads/master'
-    defaults:
-      run:
-        working-directory: "~/cli"
     runs-on: ubuntu-latest
-    container:
-      image: node:latest
     needs:
     - test
     env:
