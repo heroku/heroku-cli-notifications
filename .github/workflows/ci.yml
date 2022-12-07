@@ -47,9 +47,9 @@ jobs:
     - name: Install SSH key
       uses: shimataro/ssh-key-action@v2
       with:
-        key: "${{ secrets.CIRCLE_CI_SSH_KEY }}"
-        name: circle_ci_id_rsa
-        known_hosts: "${{ secrets.CIRCLE_CI_KNOWN_HOSTS }}"
+        key: "${{ secrets.SSH_KEY }}"
+        name: id_rsa
+        known_hosts: "${{ secrets.SSH_KEY }}"
         if_key_exists: fail
     - uses: actions/checkout@v2
     - name: Get yarn cache directory path
