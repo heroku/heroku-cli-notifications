@@ -4,11 +4,9 @@
 display notifications in Heroku CLI commands. Based on [node-notifier](https://github.com/mikaelbr/node-notifier).
 
 [![Version](https://img.shields.io/npm/v/@heroku-cli/notifications.svg)](https://npmjs.org/package/@heroku-cli/notifications)
-[![CircleCI](https://circleci.com/gh/heroku/heroku-cli-notifications/tree/master.svg?style=shield)](https://circleci.com/gh/heroku/heroku-cli-notifications/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/heroku/heroku-cli-notifications?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/heroku-cli-notifications/branch/master)
-[![Downloads/week](https://img.shields.io/npm/dw/@heroku-cli/notifications.svg)](https://npmjs.org/package/@heroku-cli/notifications)
+[![GH CI](https://github.com/heroku/heroku-cli-notifications/actions/workflows/ci.yml/badge.svg)](https://github.com/heroku/heroku-cli-notifications/actions/workflows/ci.yml)
 [![License](https://img.shields.io/npm/l/@heroku-cli/notifications.svg)](https://github.com/heroku/heroku-cli-notifications/blob/master/package.json)
-[![Greenkeeper badge](https://badges.greenkeeper.io/heroku/heroku-cli-notifications.svg)](https://greenkeeper.io/)
+
 
 <!-- toc -->
 
