@@ -46,8 +46,7 @@ jobs:
     container:
       image: node:latest
     needs:
-    - node-latest
-    - node-8
+    - test
     env:
       NYC: yarn exec nyc -- --nycrc-path node_modules/@oclif/nyc-config/.nycrc
       MOCHA_FILE: reports/mocha.xml
