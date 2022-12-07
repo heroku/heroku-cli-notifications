@@ -52,13 +52,16 @@ jobs:
         known_hosts: "${{ secrets.CIRCLE_CI_KNOWN_HOSTS }}"
         if_key_exists: fail
     - uses: actions/checkout@v2
-    - name: restore_cache
-      uses: actions/cache@v3
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+    - uses: actions/cache@v3
+      id: yarn-cache
       with:
-        key: v1-yarn-{{checksum ".circleci/config.yml"}}-{{ checksum "yarn.lock"}}
-        restore-keys: |-
-          v1-yarn-{{checksum ".circleci/config.yml"}}-{{ checksum "yarn.lock"}}
-          v1-yarn-{{checksum ".circleci/config.yml"}}
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
     - run: yarn global add @oclif/semantic-release@3 semantic-release@15
     - run: yarn --frozen-lockfile
     - run: |
