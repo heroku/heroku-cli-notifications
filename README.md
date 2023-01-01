@@ -23,3 +23,4 @@ notify({
 ```
 
 See the [node-notifier](https://github.com/mikaelbr/node-notifier) docs for more information.
+test
