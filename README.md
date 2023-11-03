@@ -1,4 +1,4 @@
-@heroku-cli/notifications
+# Heroku CLI Notifications
 =========================
 
 display notifications in Heroku CLI commands. Based on [node-notifier](https://github.com/mikaelbr/node-notifier).
