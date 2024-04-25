@@ -34,9 +34,10 @@
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-5.2.5.tgz#8a4accfc403c124a0bafe8a9fc61a05ec1032073"
 
-"@types/node-notifier@^0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@types/node-notifier/-/node-notifier-0.0.28.tgz#86ba3d3aa8d918352cc3191d88de328b20dc93c1"
+"@types/node-notifier@8.0.5":
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/@types/node-notifier/-/node-notifier-8.0.5.tgz#c5786810d16bbff10550e2d10efe5a17eaf1095e"
+  integrity sha512-LX7+8MtTsv6szumAp6WOy87nqMEdGhhry/Qfprjm1Ma6REjVzeF7SCyvPtp5RaF6IkXCS9V4ra8g5fwvf2ZAYg==
   dependencies:
     "@types/node" "*"
 
