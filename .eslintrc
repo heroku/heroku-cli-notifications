@@ -1,3 +1,18 @@
 {
-  "extends": "oclif"
+  "extends": [
+    "oclif",
+    "oclif-typescript"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "rules": {
+    "default-param-last": "warn",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "warn"
+  }
 }
