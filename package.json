@@ -19,6 +19,7 @@
     "eslint-plugin-mocha": "^10.5.0",
     "chai": "^4.4.1",
     "mocha": "^10.8.2",
+    "nyc": "^17.1.0",
     "tslib": "1.14.1",
     "typescript": "4.8.4"
   },
@@ -52,7 +53,7 @@
     "lint": "eslint . --ext .ts --config .eslintrc",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build",
-    "test": "mocha --forbid-only \"test/**/*.test.ts\""
+    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
 }
