@@ -5,23 +5,26 @@
   "author": "Heroku",
   "bugs": "https://github.com/heroku/heroku-cli-notifications/issues",
   "dependencies": {
-    "node-notifier": "^8.0.1",
-    "@types/node-notifier": "8.0.5"
+    "node-notifier": "^10.0.1",
+    "@types/node-notifier": "8.0.5",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@oclif/tslint": "^3.1.0",
-    "@types/chai": "^4.1.4",
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.9.4",
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "ts-node": "^7.0.1",
-    "tslib": "^1.9.3",
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "@types/chai": "^4.3.14",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.14.8",
+    "eslint": "^8.57.0",
+    "eslint-config-oclif": "^5.2.2",
+    "eslint-config-oclif-typescript": "^3.1.14",
+    "eslint-plugin-mocha": "^10.5.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.8.2",
+    "nyc": "^17.1.0",
+    "tslib": "1.14.1",
+    "typescript": "4.8.4"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=20"
   },
   "files": [
     "/assets",
@@ -33,13 +36,24 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "mocha": {
+    "require": [
+      "test/helpers/init.js",
+      "ts-node/register",
+      "source-map-support/register"
+    ],
+    "watch-extensions": "ts",
+    "recursive": true,
+    "reporter": "spec",
+    "timeout": 360000
+  },
   "repository": "heroku/heroku-cli-notifications",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
+    "lint": "eslint . --ext .ts --config .eslintrc",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build",
-    "test": "mocha --forbid-only \"test/**/*.test.ts\""
+    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
 }
