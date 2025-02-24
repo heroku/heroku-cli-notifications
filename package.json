@@ -10,10 +10,10 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.14",
+    "@types/chai": "^5.0.1",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.14.8",
-    "chai": "^4.4.1",
+    "chai": "^5.2.0",
     "eslint": "^8.57.0",
     "eslint-config-oclif": "^5.2.2",
     "eslint-config-oclif-typescript": "^3.1.14",
