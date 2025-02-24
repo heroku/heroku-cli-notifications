@@ -1,23 +1,23 @@
 {
   "name": "@heroku-cli/notifications",
   "description": "display notifications in Heroku CLI commands",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "Heroku",
   "bugs": "https://github.com/heroku/heroku-cli-notifications/issues",
   "dependencies": {
-    "node-notifier": "^10.0.1",
     "@types/node-notifier": "8.0.5",
+    "node-notifier": "^10.0.1",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/chai": "^4.3.14",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.14.8",
+    "chai": "^4.4.1",
     "eslint": "^8.57.0",
     "eslint-config-oclif": "^5.2.2",
     "eslint-config-oclif-typescript": "^3.1.14",
     "eslint-plugin-mocha": "^10.5.0",
-    "chai": "^4.4.1",
     "mocha": "^10.8.2",
     "nyc": "^17.1.0",
     "tslib": "1.14.1",
