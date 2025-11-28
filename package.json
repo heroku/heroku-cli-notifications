@@ -21,7 +21,7 @@
     "mocha": "^11.7.2",
     "nyc": "^17.1.0",
     "tslib": "1.14.1",
-    "typescript": "4.8.4"
+    "typescript": "5.9.3"
   },
   "engines": {
     "node": ">=20"
