@@ -23,3 +23,7 @@ notify({
 ```
 
 See the [node-notifier](https://github.com/mikaelbr/node-notifier) docs for more information.
+
+## Note
+
+On macOS Apple Silicon (M1/M2/M3/M4), desktop notifications require Rosetta 2.
