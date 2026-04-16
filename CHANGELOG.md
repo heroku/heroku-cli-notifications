@@ -1,4 +1,13 @@
 <a name="1.2.1"></a>
+## [1.2.7](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.6...notifications-v1.2.7) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.3.4 to 3.4.2 ([#96](https://github.com/heroku/heroku-cli-notifications/issues/96)) ([480f610](https://github.com/heroku/heroku-cli-notifications/commit/480f610f4da7dcb43139da3940d7c8d0f2d622ed))
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#98](https://github.com/heroku/heroku-cli-notifications/issues/98)) ([42ad014](https://github.com/heroku/heroku-cli-notifications/commit/42ad0144344eb456ff5a6500fe33868f5419733f))
+* **deps:** bump picomatch from 4.0.3 to 4.0.4 ([#97](https://github.com/heroku/heroku-cli-notifications/issues/97)) ([f3afb20](https://github.com/heroku/heroku-cli-notifications/commit/f3afb207d8118eb00de95f33963df74092a9177b))
+
 ## [1.2.6](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.5...notifications-v1.2.6) (2026-02-05)
 
 
