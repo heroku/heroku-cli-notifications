@@ -1,4 +1,21 @@
 <a name="1.2.1"></a>
+## [1.2.7](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.6...notifications-v1.2.7) (2026-06-09)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.3.4 to 3.4.2 ([#96](https://github.com/heroku/heroku-cli-notifications/issues/96)) ([480f610](https://github.com/heroku/heroku-cli-notifications/commit/480f610f4da7dcb43139da3940d7c8d0f2d622ed))
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#98](https://github.com/heroku/heroku-cli-notifications/issues/98)) ([42ad014](https://github.com/heroku/heroku-cli-notifications/commit/42ad0144344eb456ff5a6500fe33868f5419733f))
+* **deps:** bump picomatch from 4.0.3 to 4.0.4 ([#97](https://github.com/heroku/heroku-cli-notifications/issues/97)) ([f3afb20](https://github.com/heroku/heroku-cli-notifications/commit/f3afb207d8118eb00de95f33963df74092a9177b))
+* ignore workflows-repo in eslint config ([#104](https://github.com/heroku/heroku-cli-notifications/issues/104)) ([934feea](https://github.com/heroku/heroku-cli-notifications/commit/934feead01c4f5f38b13f93868aca9b415684a14))
+
+
+### Dependencies
+
+* bump actions/checkout from 4 to 6 ([#87](https://github.com/heroku/heroku-cli-notifications/issues/87)) ([d080f93](https://github.com/heroku/heroku-cli-notifications/commit/d080f936b728f868b0172dad264aa64b8dece6e2))
+* bump actions/create-github-app-token from 2 to 3 ([#95](https://github.com/heroku/heroku-cli-notifications/issues/95)) ([17cf870](https://github.com/heroku/heroku-cli-notifications/commit/17cf8701c89d61c77429d621dca24a40a78d0e6a))
+* bump actions/setup-node from 4 to 6 ([#88](https://github.com/heroku/heroku-cli-notifications/issues/88)) ([e0a5e4d](https://github.com/heroku/heroku-cli-notifications/commit/e0a5e4d08db1011ae3a99312563fa643d2a20707))
+
 ## [1.2.6](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.5...notifications-v1.2.6) (2026-02-05)
 
 
