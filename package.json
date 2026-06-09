@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/node": "24.10.1",
     "@vitest/coverage-v8": "^4.1.8",
-    "eslint": "^9",
+    "eslint": "^10",
     "eslint-config-oclif": "^6.0.144",
     "tslib": "1.14.1",
     "typescript": "5.9.3",
