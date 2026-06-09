@@ -26,7 +26,6 @@ export default [
       '@typescript-eslint/no-explicit-any': 'off',
       camelcase: 'off',
       'import/namespace': 'warn',
-      'mocha/no-mocha-arrows': 'warn',
       'n/shebang': 'warn',
       'node/no-missing-import': 'off',
       'perfectionist/sort-imports': 'warn',
