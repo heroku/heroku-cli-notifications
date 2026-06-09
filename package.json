@@ -9,7 +9,7 @@
     "node-notifier": "^10.0.1"
   },
   "devDependencies": {
-    "@types/node": "24.10.1",
+    "@types/node": "25.9.2",
     "@vitest/coverage-v8": "^4.1.8",
     "eslint": "^9",
     "eslint-config-oclif": "^6.0.144",
