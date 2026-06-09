@@ -6,21 +6,16 @@
   "bugs": "https://github.com/heroku/heroku-cli-notifications/issues",
   "dependencies": {
     "@types/node-notifier": "8.0.5",
-    "node-notifier": "^10.0.1",
-    "ts-node": "^10.9.2"
+    "node-notifier": "^10.0.1"
   },
   "devDependencies": {
-    "@types/chai": "^5.0.1",
-    "@types/mocha": "^10.0.10",
     "@types/node": "24.10.1",
-    "chai": "^6.2.0",
+    "@vitest/coverage-v8": "^4.1.8",
     "eslint": "^9",
     "eslint-config-oclif": "^6.0.144",
-    "eslint-plugin-mocha": "^11.2.0",
-    "mocha": "^11.7.2",
-    "nyc": "^17.1.0",
     "tslib": "1.14.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.1.8"
   },
   "engines": {
     "node": ">=20"
@@ -35,27 +30,16 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "mocha": {
-    "require": [
-      "test/helpers/init.js",
-      "ts-node/register",
-      "source-map-support/register"
-    ],
-    "watch-extensions": "ts",
-    "recursive": true,
-    "reporter": "spec",
-    "timeout": 360000
-  },
   "repository": "heroku/heroku-cli-notifications",
   "scripts": {
     "build": "rm -rf lib && tsc",
     "lint": "eslint .",
-    "posttest": "yarn run lint",
-    "prepublishOnly": "yarn run build",
-    "test": "nyc mocha --forbid-only \"test/**/*.test.ts\""
+    "posttest": "npm run lint",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run --coverage"
   },
   "types": "lib/index.d.ts",
-  "resolutions": {
-    "serialize-javascript": "^7.0.3"
+  "overrides": {
+    "uuid": "^11.1.1"
   }
 }

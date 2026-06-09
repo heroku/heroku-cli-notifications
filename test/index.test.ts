@@ -1,3 +1,5 @@
+import {describe, it} from 'vitest'
+
 import {notify} from '../src'
 
 describe('notify', () => {
