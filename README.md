@@ -26,4 +26,4 @@ See the [node-notifier](https://github.com/mikaelbr/node-notifier) docs for more
 
 ## Note
 
-On macOS Apple Silicon (M1/M2/M3/M4), desktop notifications may not appear without Rosetta 2.
+On macOS Apple Silicon (M1/M2/M3/M4), desktop notifications are skipped by default because the bundled `node-notifier` macOS binary is Intel-only.

@@ -4,8 +4,13 @@ export interface Notification extends NodeNotification {
   force?: boolean
 }
 
+function shouldSkipBundledMacNotifier() {
+  return process.platform === 'darwin' && process.arch === 'arm64'
+}
+
 export function notify(notification: Notification = {}, callback?: NotificationCallback) {
   if (!notification.force && ['0', 'false'].includes(process.env.HEROKU_NOTIFICATIONS!)) return
+  if (shouldSkipBundledMacNotifier()) return
   try {
     return nodeNotify({
       appName: 'Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy!App',
