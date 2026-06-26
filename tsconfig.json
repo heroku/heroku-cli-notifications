@@ -3,6 +3,9 @@
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
+    "lib": [
+      "es2021"
+    ],
     "module": "commonjs",
     "outDir": "./lib",
     "pretty": true,
