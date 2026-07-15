@@ -4,10 +4,6 @@
   "version": "1.2.7",
   "author": "Heroku",
   "bugs": "https://github.com/heroku/heroku-cli-notifications/issues",
-  "dependencies": {
-    "@types/node-notifier": "8.0.5",
-    "node-notifier": "^10.0.1"
-  },
   "devDependencies": {
     "@types/node": "24.10.1",
     "@vitest/coverage-v8": "^4.1.8",
@@ -38,8 +34,5 @@
     "prepublishOnly": "npm run build",
     "test": "vitest run --coverage"
   },
-  "types": "lib/index.d.ts",
-  "overrides": {
-    "uuid": "^11.1.1"
-  }
+  "types": "lib/index.d.ts"
 }
