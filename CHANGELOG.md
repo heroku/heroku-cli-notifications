@@ -1,4 +1,11 @@
 <a name="1.2.1"></a>
+## [1.2.8](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.7...notifications-v1.2.8) (2026-07-17)
+
+
+### Bug Fixes
+
+* replace node-notifier with native per-OS notifications ([#111](https://github.com/heroku/heroku-cli-notifications/issues/111)) ([0563e4f](https://github.com/heroku/heroku-cli-notifications/commit/0563e4f8ddce0790df2fa90dcfb7baaa69f68adf))
+
 ## [1.2.7](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.6...notifications-v1.2.7) (2026-06-09)
 
 
