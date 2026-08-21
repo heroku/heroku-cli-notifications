@@ -1,4 +1,11 @@
 <a name="1.2.1"></a>
+## [1.2.9](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.8...notifications-v1.2.9) (2026-08-21)
+
+
+### Dependencies
+
+* bump brace-expansion ([#119](https://github.com/heroku/heroku-cli-notifications/issues/119)) ([56df7fb](https://github.com/heroku/heroku-cli-notifications/commit/56df7fbbe7a25820ea7f573db5ffde51eb4d0da1))
+
 ## [1.2.8](https://github.com/heroku/heroku-cli-notifications/compare/notifications-v1.2.7...notifications-v1.2.8) (2026-07-17)
 
 
