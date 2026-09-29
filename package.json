@@ -9,6 +9,7 @@
     "@vitest/coverage-v8": "^4.1.8",
     "eslint": "^9",
     "eslint-config-oclif": "^6.0.144",
+    "rimraf": "^6.1.3",
     "tslib": "1.14.1",
     "typescript": "5.9.3",
     "vitest": "^4.1.8"
@@ -28,11 +29,14 @@
   "main": "lib/index.js",
   "repository": "heroku/heroku-cli-notifications",
   "scripts": {
-    "build": "rm -rf lib && tsc",
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
     "lint": "eslint .",
-    "posttest": "npm run lint",
-    "prepublishOnly": "npm run build",
-    "test": "vitest run --coverage"
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage --coverage.reporter=text-summary --coverage.reporter=lcovonly",
+    "prepare": "npm run build"
   },
   "types": "lib/index.d.ts"
 }
